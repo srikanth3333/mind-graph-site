@@ -1,6 +1,5 @@
 import React from 'react';
 import { IoLogoFacebook,IoLogoTwitter, IoLogoLinkedin, IoLogoInstagram,IoArrowForward } from 'react-icons/io5';
-import Image from 'next/image';
 
 function Footer() {
   return (
@@ -13,7 +12,7 @@ function Footer() {
                 <div className="row mt-5">
                     <div className="col-lg-3">
                         <div className="card">
-                            <Image src="b-1.jpg" className="Image-top" alt="" />
+                            <img src="b-1.jpg" className="img-top" alt="" />
                             <div className="card-body">
                                 <p>Artificial Intelligence and the Future of Web Design</p>
                                 <span>10 Apr 2021</span>
@@ -22,7 +21,7 @@ function Footer() {
                     </div>
                     <div className="col-lg-3">
                         <div className="card">
-                            <Image src="b-2.jpg" className="Image-top" alt="" />
+                            <img src="b-2.jpg" className="img-top" alt="" />
                             <div className="card-body">
                                 <p>Solution for clean look working space</p>
                                 <span>05 Apr 2021</span>
@@ -31,7 +30,7 @@ function Footer() {
                     </div>
                     <div className="col-lg-3">
                         <div className="card">
-                            <Image src="b-3.jpg" className="Image-top" alt="" />
+                            <img src="b-3.jpg" className="img-top" alt="" />
                             <div className="card-body">
                                 <p>Enable joint learning (Human + Machines)</p>
                                 <span>25 Mar 2021</span>
@@ -40,7 +39,7 @@ function Footer() {
                     </div>
                     <div className="col-lg-3">
                         <div className="card">
-                            <Image src="b-4.jpg" className="Image-top" alt="" />
+                            <img src="b-4.jpg" className="img-top" alt="" />
                             <div className="card-body">
                                 <p>Implement right technology solutions</p>
                                 <span>05 Feb 2021</span>
@@ -106,7 +105,7 @@ function Footer() {
             <div className="container-fluid">
                 <div className="row justify-content-between align-items-center">
                     <div className="col-lg-4 sm-text">
-                        <Image src="logo.png" alt="" />
+                        <img src="logo.png" alt="" />
                     </div>  
                     <div className="col-lg-4 text-center sm-text">
                         <p className="mb-0">&copy; 2022 Mindgragh. All rights reserved.</p>

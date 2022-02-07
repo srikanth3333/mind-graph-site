@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
-import Image from 'next/image';
+
 function index() {
   return (
       <div className="page">
@@ -16,7 +16,7 @@ function index() {
                     <div className="col-lg-3">
                         <div className="card h-100">
                             <div className="card-body">
-                                <Image src="about-1.png" className="Image-fluid about-Image" alt="" />
+                                <img src="about-1.png" className="img-fluid about-img" alt="" />
                                 <p className="about-title">PASSION</p>
                                 <p className="about-text">Our passion for excellence drives us. Our approach is to be transparent and push the boundaries of possibility.</p>
                                 <div className="space"></div>
@@ -26,7 +26,7 @@ function index() {
                     <div className="col-lg-3">
                         <div className="card h-100">
                             <div className="card-body">
-                                <Image src="about-2.png" className="Image-fluid about-Image" alt="" />
+                                <img src="about-2.png" className="img-fluid about-img" alt="" />
                                 <p className="about-title">VISION</p>
                                 <p className="about-text">Our vision for the future is to create intelligent digital journeys with data-driven actions in the combination of Human and AI power.</p>
                             </div>
@@ -35,7 +35,7 @@ function index() {
                     <div className="col-lg-3">
                         <div className="card h-100">
                             <div className="card-body">
-                                <Image src="about-3.png" className="Image-fluid about-Image" alt="" />
+                                <img src="about-3.png" className="img-fluid about-img" alt="" />
                                 <div className="mt-3">
                                     <p className="about-title">PHILOSOPHY</p>
                                     <p className="about-text">Our philosophy is to create a culture of customer delight supported by positive employees, trusted partners, and the community.</p>
@@ -46,7 +46,7 @@ function index() {
                     <div className="col-lg-3">
                         <div className="card h-100">
                             <div className="card-body">
-                                <Image src="about-4.png" className="Image-fluid about-Image" alt="" />
+                                <img src="about-4.png" className="img-fluid about-img" alt="" />
                                 <p className="about-title">VALUES</p>
                                 <p className="about-text">Our values are embodied in the 4E’s framework - excellence, empathy, empower, and ethical</p>
                             </div>

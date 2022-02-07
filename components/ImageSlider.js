@@ -2,7 +2,7 @@ import React from 'react';
 import SideBar from './SideBar';
 import { FaBars } from 'react-icons/fa';
 import Link from 'next/link';
-import Image from 'next/image';
+
 function ImageSlider() {
 
   const[open,setOpen] = React.useState(false)
@@ -21,10 +21,10 @@ function ImageSlider() {
                   <div className="container-fluid">
                     <div className="d-flex justify-content-between align-items-center ">
                       <Link href="/">
-                          <Image src={"logo.png"} className="logo" alt="" />
+                          <img src={"logo.png"} className="logo" alt="" />
                       </Link>
                         <div>
-                            {/* <Image src="home.png" className="icon icon-1 me-4" alt="" /> */}
+                            {/* <img src="home.png" className="icon icon-1 me-4" alt="" /> */}
                             <FaBars size={30} onClick={() => setOpen(true)} className="nav-icon" color="#fff"/>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ function ImageSlider() {
                         </div>
                       </div>
                     </div>
-                    <Image src="bnr-1.png" className="d-block w-100" alt="..." />
+                    <img src="bnr-1.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
                     <div className="carousel-text">
@@ -59,7 +59,7 @@ function ImageSlider() {
                         </div>
                       </div>
                     </div>
-                    <Image src="bnr-1.png" className="d-block w-100" alt="..." />
+                    <img src="bnr-1.png" className="d-block w-100" alt="..." />
                   </div>
                   <div className="carousel-item">
                     <div className="carousel-text">
@@ -73,7 +73,7 @@ function ImageSlider() {
                         </div>
                       </div>
                     </div>
-                    <Image src="bnr-3.png" className="d-block w-100" alt="..." />
+                    <img src="bnr-3.png" className="d-block w-100" alt="..." />
                   </div>
                 </div>
               </div>
